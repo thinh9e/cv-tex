@@ -60,6 +60,15 @@
 
 %--------------------------------------------------
 
+% cvLinkURLText
+% #1 url
+% #2 text
+\newcommand{\cvLinkURLText}[2]{
+	\href{#1}{\color{royalblue} #2}
+}
+
+%--------------------------------------------------
+
 % cvSection
 % #1: title
 \newenvironment{cvSection}[1]{
